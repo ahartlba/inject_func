@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "inject-objects"
+version = "0.1.0"
+description = "Inject data into python functions"
+authors = ["ahartlba <sry@nomail.com>"]
+readme = "README.md"
+homepage = "https://github.com/ahartlba/inject_func"
+packages = [{include = "inject_objects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
